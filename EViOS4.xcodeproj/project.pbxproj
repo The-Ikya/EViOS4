@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4409506028F3F4820005BDF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4409505F28F3F4820005BDF9 /* AppDelegate.swift */; };
+		4409506228F3F4820005BDF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4409506128F3F4820005BDF9 /* SceneDelegate.swift */; };
+		4409506428F3F4820005BDF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4409506328F3F4820005BDF9 /* ViewController.swift */; };
+		4409506728F3F4820005BDF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4409506528F3F4820005BDF9 /* Main.storyboard */; };
+		4409506A28F3F4820005BDF9 /* EViOS4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4409506828F3F4820005BDF9 /* EViOS4.xcdatamodeld */; };
+		4409506C28F3F4830005BDF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4409506B28F3F4830005BDF9 /* Assets.xcassets */; };
+		4409506F28F3F4830005BDF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4409506D28F3F4830005BDF9 /* LaunchScreen.storyboard */; };
+		4409507A28F3F4830005BDF9 /* EViOS4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4409507928F3F4830005BDF9 /* EViOS4Tests.swift */; };
+		4409508428F3F4830005BDF9 /* EViOS4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4409508328F3F4830005BDF9 /* EViOS4UITests.swift */; };
+		4409508628F3F4830005BDF9 /* EViOS4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4409508528F3F4830005BDF9 /* EViOS4UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4409507628F3F4830005BDF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4409505428F3F4820005BDF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4409505B28F3F4820005BDF9;
+			remoteInfo = EViOS4;
+		};
+		4409508028F3F4830005BDF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4409505428F3F4820005BDF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4409505B28F3F4820005BDF9;
+			remoteInfo = EViOS4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4409505C28F3F4820005BDF9 /* EViOS4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EViOS4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4409505F28F3F4820005BDF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4409506128F3F4820005BDF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4409506328F3F4820005BDF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4409506628F3F4820005BDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4409506928F3F4820005BDF9 /* EViOS4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EViOS4.xcdatamodel; sourceTree = "<group>"; };
+		4409506B28F3F4830005BDF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4409506E28F3F4830005BDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4409507028F3F4830005BDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4409507528F3F4830005BDF9 /* EViOS4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EViOS4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4409507928F3F4830005BDF9 /* EViOS4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EViOS4Tests.swift; sourceTree = "<group>"; };
+		4409507F28F3F4830005BDF9 /* EViOS4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EViOS4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4409508328F3F4830005BDF9 /* EViOS4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EViOS4UITests.swift; sourceTree = "<group>"; };
+		4409508528F3F4830005BDF9 /* EViOS4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EViOS4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4409505928F3F4820005BDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4409507228F3F4830005BDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4409507C28F3F4830005BDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4409505328F3F4820005BDF9 = {
+			isa = PBXGroup;
+			children = (
+				4409505E28F3F4820005BDF9 /* EViOS4 */,
+				4409507828F3F4830005BDF9 /* EViOS4Tests */,
+				4409508228F3F4830005BDF9 /* EViOS4UITests */,
+				4409505D28F3F4820005BDF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4409505D28F3F4820005BDF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4409505C28F3F4820005BDF9 /* EViOS4.app */,
+				4409507528F3F4830005BDF9 /* EViOS4Tests.xctest */,
+				4409507F28F3F4830005BDF9 /* EViOS4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4409505E28F3F4820005BDF9 /* EViOS4 */ = {
+			isa = PBXGroup;
+			children = (
+				4409505F28F3F4820005BDF9 /* AppDelegate.swift */,
+				4409506128F3F4820005BDF9 /* SceneDelegate.swift */,
+				4409506328F3F4820005BDF9 /* ViewController.swift */,
+				4409506528F3F4820005BDF9 /* Main.storyboard */,
+				4409506B28F3F4830005BDF9 /* Assets.xcassets */,
+				4409506D28F3F4830005BDF9 /* LaunchScreen.storyboard */,
+				4409507028F3F4830005BDF9 /* Info.plist */,
+				4409506828F3F4820005BDF9 /* EViOS4.xcdatamodeld */,
+			);
+			path = EViOS4;
+			sourceTree = "<group>";
+		};
+		4409507828F3F4830005BDF9 /* EViOS4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4409507928F3F4830005BDF9 /* EViOS4Tests.swift */,
+			);
+			path = EViOS4Tests;
+			sourceTree = "<group>";
+		};
+		4409508228F3F4830005BDF9 /* EViOS4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4409508328F3F4830005BDF9 /* EViOS4UITests.swift */,
+				4409508528F3F4830005BDF9 /* EViOS4UITestsLaunchTests.swift */,
+			);
+			path = EViOS4UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4409505B28F3F4820005BDF9 /* EViOS4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4409508928F3F4830005BDF9 /* Build configuration list for PBXNativeTarget "EViOS4" */;
+			buildPhases = (
+				4409505828F3F4820005BDF9 /* Sources */,
+				4409505928F3F4820005BDF9 /* Frameworks */,
+				4409505A28F3F4820005BDF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EViOS4;
+			productName = EViOS4;
+			productReference = 4409505C28F3F4820005BDF9 /* EViOS4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4409507428F3F4830005BDF9 /* EViOS4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4409508C28F3F4830005BDF9 /* Build configuration list for PBXNativeTarget "EViOS4Tests" */;
+			buildPhases = (
+				4409507128F3F4830005BDF9 /* Sources */,
+				4409507228F3F4830005BDF9 /* Frameworks */,
+				4409507328F3F4830005BDF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4409507728F3F4830005BDF9 /* PBXTargetDependency */,
+			);
+			name = EViOS4Tests;
+			productName = EViOS4Tests;
+			productReference = 4409507528F3F4830005BDF9 /* EViOS4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4409507E28F3F4830005BDF9 /* EViOS4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4409508F28F3F4830005BDF9 /* Build configuration list for PBXNativeTarget "EViOS4UITests" */;
+			buildPhases = (
+				4409507B28F3F4830005BDF9 /* Sources */,
+				4409507C28F3F4830005BDF9 /* Frameworks */,
+				4409507D28F3F4830005BDF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4409508128F3F4830005BDF9 /* PBXTargetDependency */,
+			);
+			name = EViOS4UITests;
+			productName = EViOS4UITests;
+			productReference = 4409507F28F3F4830005BDF9 /* EViOS4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4409505428F3F4820005BDF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4409505B28F3F4820005BDF9 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					4409507428F3F4830005BDF9 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 4409505B28F3F4820005BDF9;
+					};
+					4409507E28F3F4830005BDF9 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 4409505B28F3F4820005BDF9;
+					};
+				};
+			};
+			buildConfigurationList = 4409505728F3F4820005BDF9 /* Build configuration list for PBXProject "EViOS4" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4409505328F3F4820005BDF9;
+			productRefGroup = 4409505D28F3F4820005BDF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4409505B28F3F4820005BDF9 /* EViOS4 */,
+				4409507428F3F4830005BDF9 /* EViOS4Tests */,
+				4409507E28F3F4830005BDF9 /* EViOS4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4409505A28F3F4820005BDF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4409506F28F3F4830005BDF9 /* LaunchScreen.storyboard in Resources */,
+				4409506C28F3F4830005BDF9 /* Assets.xcassets in Resources */,
+				4409506728F3F4820005BDF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4409507328F3F4830005BDF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4409507D28F3F4830005BDF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4409505828F3F4820005BDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4409506428F3F4820005BDF9 /* ViewController.swift in Sources */,
+				4409506A28F3F4820005BDF9 /* EViOS4.xcdatamodeld in Sources */,
+				4409506028F3F4820005BDF9 /* AppDelegate.swift in Sources */,
+				4409506228F3F4820005BDF9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4409507128F3F4830005BDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4409507A28F3F4830005BDF9 /* EViOS4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4409507B28F3F4830005BDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4409508628F3F4830005BDF9 /* EViOS4UITestsLaunchTests.swift in Sources */,
+				4409508428F3F4830005BDF9 /* EViOS4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4409507728F3F4830005BDF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4409505B28F3F4820005BDF9 /* EViOS4 */;
+			targetProxy = 4409507628F3F4830005BDF9 /* PBXContainerItemProxy */;
+		};
+		4409508128F3F4830005BDF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4409505B28F3F4820005BDF9 /* EViOS4 */;
+			targetProxy = 4409508028F3F4830005BDF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4409506528F3F4820005BDF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4409506628F3F4820005BDF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4409506D28F3F4830005BDF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4409506E28F3F4830005BDF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4409508728F3F4830005BDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4409508828F3F4830005BDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4409508A28F3F4830005BDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EViOS4/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.technifuture.EViOS4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4409508B28F3F4830005BDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EViOS4/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.technifuture.EViOS4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4409508D28F3F4830005BDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.technifuture.EViOS4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EViOS4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EViOS4";
+			};
+			name = Debug;
+		};
+		4409508E28F3F4830005BDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.technifuture.EViOS4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EViOS4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EViOS4";
+			};
+			name = Release;
+		};
+		4409509028F3F4830005BDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.technifuture.EViOS4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EViOS4;
+			};
+			name = Debug;
+		};
+		4409509128F3F4830005BDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.technifuture.EViOS4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EViOS4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4409505728F3F4820005BDF9 /* Build configuration list for PBXProject "EViOS4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4409508728F3F4830005BDF9 /* Debug */,
+				4409508828F3F4830005BDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4409508928F3F4830005BDF9 /* Build configuration list for PBXNativeTarget "EViOS4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4409508A28F3F4830005BDF9 /* Debug */,
+				4409508B28F3F4830005BDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4409508C28F3F4830005BDF9 /* Build configuration list for PBXNativeTarget "EViOS4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4409508D28F3F4830005BDF9 /* Debug */,
+				4409508E28F3F4830005BDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4409508F28F3F4830005BDF9 /* Build configuration list for PBXNativeTarget "EViOS4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4409509028F3F4830005BDF9 /* Debug */,
+				4409509128F3F4830005BDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4409506828F3F4820005BDF9 /* EViOS4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4409506928F3F4820005BDF9 /* EViOS4.xcdatamodel */,
+			);
+			currentVersion = 4409506928F3F4820005BDF9 /* EViOS4.xcdatamodel */;
+			path = EViOS4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4409505428F3F4820005BDF9 /* Project object */;
+}
