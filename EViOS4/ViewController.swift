@@ -36,6 +36,21 @@ class ViewController: UIViewController {
 	}
 }
 
+extension ViewController : UITableViewDelegate {
+	func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+		let itemToRemove = itemList[indexPath.row]
+		
+		for item in itemList {
+			if item.name == itemToRemove.name && item.date == itemToRemove.date {
+				appContext.delete(item)
+			}
+		}
+		
+		saveData()
+		loadFromData()
+	}
+}
+
 extension ViewController : UITableViewDataSource {
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 		itemList.count
