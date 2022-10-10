@@ -39,11 +39,12 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <gestureRecognizers/>
             <connections>
                 <outlet property="itemName" destination="bW1-Ub-qvB" id="YZ1-RL-HVG"/>
                 <outlet property="itemPrice" destination="Ajf-Dp-vqu" id="DjL-gS-gw4"/>
             </connections>
-            <point key="canvasLocation" x="253.84615384615384" y="-11.729857819905213"/>
+            <point key="canvasLocation" x="109" y="-5"/>
         </tableViewCell>
     </objects>
     <resources>

@@ -13,21 +13,16 @@ class ExpenseItemCell: UITableViewCell {
 	
 	@IBOutlet var itemName: UILabel!
 	@IBOutlet var itemPrice: UILabel!
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+	
+	private var expenseItem: Expense! {
+		didSet {
+			itemName.text = expenseItem.name
+			itemPrice.text = formattedCurrency(value: expenseItem.value)
+		}
+	}
 	
 	func setupCell(item: Expense) {
-		itemName.text = item.name
-		itemPrice.text = formattedCurrency(value: item.value)
+		expenseItem = item
 	}
 	
 	private func formattedCurrency(value: Float) -> String? {
