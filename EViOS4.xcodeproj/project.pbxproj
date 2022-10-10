@@ -17,6 +17,9 @@
 		4409507A28F3F4830005BDF9 /* EViOS4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4409507928F3F4830005BDF9 /* EViOS4Tests.swift */; };
 		4409508428F3F4830005BDF9 /* EViOS4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4409508328F3F4830005BDF9 /* EViOS4UITests.swift */; };
 		4409508628F3F4830005BDF9 /* EViOS4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4409508528F3F4830005BDF9 /* EViOS4UITestsLaunchTests.swift */; };
+		4409509328F3FD730005BDF9 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4409509228F3FD730005BDF9 /* ModalViewController.swift */; };
+		4409509628F3FE930005BDF9 /* ExpenseItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4409509428F3FE930005BDF9 /* ExpenseItemCell.swift */; };
+		4409509728F3FE930005BDF9 /* ExpenseItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4409509528F3FE930005BDF9 /* ExpenseItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		4409507F28F3F4830005BDF9 /* EViOS4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EViOS4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4409508328F3F4830005BDF9 /* EViOS4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EViOS4UITests.swift; sourceTree = "<group>"; };
 		4409508528F3F4830005BDF9 /* EViOS4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EViOS4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4409509228F3FD730005BDF9 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		4409509428F3FE930005BDF9 /* ExpenseItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItemCell.swift; sourceTree = "<group>"; };
+		4409509528F3FE930005BDF9 /* ExpenseItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpenseItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				4409505F28F3F4820005BDF9 /* AppDelegate.swift */,
 				4409506128F3F4820005BDF9 /* SceneDelegate.swift */,
 				4409506328F3F4820005BDF9 /* ViewController.swift */,
+				4409509228F3FD730005BDF9 /* ModalViewController.swift */,
+				4409509428F3FE930005BDF9 /* ExpenseItemCell.swift */,
+				4409509528F3FE930005BDF9 /* ExpenseItemCell.xib */,
 				4409506528F3F4820005BDF9 /* Main.storyboard */,
 				4409506B28F3F4830005BDF9 /* Assets.xcassets */,
 				4409506D28F3F4830005BDF9 /* LaunchScreen.storyboard */,
@@ -237,6 +246,7 @@
 				4409506F28F3F4830005BDF9 /* LaunchScreen.storyboard in Resources */,
 				4409506C28F3F4830005BDF9 /* Assets.xcassets in Resources */,
 				4409506728F3F4820005BDF9 /* Main.storyboard in Resources */,
+				4409509728F3FE930005BDF9 /* ExpenseItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4409506428F3F4820005BDF9 /* ViewController.swift in Sources */,
+				4409509628F3FE930005BDF9 /* ExpenseItemCell.swift in Sources */,
+				4409509328F3FD730005BDF9 /* ModalViewController.swift in Sources */,
 				4409506A28F3F4820005BDF9 /* EViOS4.xcdatamodeld in Sources */,
 				4409506028F3F4820005BDF9 /* AppDelegate.swift in Sources */,
 				4409506228F3F4820005BDF9 /* SceneDelegate.swift in Sources */,
